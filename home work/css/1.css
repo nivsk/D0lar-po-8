@@ -2,10 +2,21 @@
      height: 300px;
     border: none;
     background-color: blanchedalmond;
+
+
 }
 .git {
     height: 300px;
     border: none;
     background-color: green;
-
+    
 }
+a {
+    text-decoration: none;
+    font-size: 30px;
+
+}    
+a:hover {
+    color: green;
+}
+
