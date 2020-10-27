@@ -1,0 +1,50 @@
+* {
+    /* margin: 0%; */
+    /* padding: 0%; */
+   /* box-sizing: border-box; */
+}
+.god2 {
+    max-width: 469px;
+    margin: auto;
+    padding:  318px;
+background-color:  ;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+header {
+    height: 100vh;
+
+}
+ol {
+   list-style-type: none;
+
+}
+a {
+    text-decoration: none;
+    color:  rgb(245, 245, 245);
+}
+.god {
+    background: url("../img/bg-image.png") no-repeat center center/cover;
+    height: 700px;
+
+
+}
+li {
+   float: right;
+    
+
+
+}
+
+
+}
+li a :hover {
+    color: red;
+    font-size: 22px;
+}
+.hack  { 
+    background: url("https://kinofilmpro.ru/wp-content/uploads/2020/04/65988347d17206764_0-780x439.jpg") no-repeat center center/cover;
+        
+    height: 700px;
+}
