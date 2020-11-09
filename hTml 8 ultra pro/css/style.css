@@ -1,0 +1,62 @@
+/*Thin 100*/
+
+/*Extra-light 200*/
+
+/*Light 300*/
+
+/*Regular 400*/
+
+/*Medium 500*/
+
+/*Semi-bold 600*/
+
+/*Bold 700*/
+
+/*Extra-bold 800*/
+
+/*Black 900*/
+
+
+
+
+@font-face {
+    font-family: "ultra pro regular ";
+  
+    src: url("./fontpro/Stalemate-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fontpro/Stalemate-Regular.woff") format("woff"), /* Modern Browsers */
+      url("./fontpro/Stalemate-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "pro Max ";
+  
+    src: url("./fontpro/CaptureSmallz.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fontpro/CaptureSmallz.woff") format("woff"), /* Modern Browsers */
+      url("./fontpro/20082.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+h1 {
+    font-family:'pro Max' ,Arial,sans-serif ;
+    color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family:'ultra pro regular' ,Arial,sans-serif ;
+    color: forestgreen;
+    font-size: 8px;
+    text-transform: uppercase;
+
+}
+p {
+    font-family:'pro Max' ,Arial,sans-serif ;
+    color: blue;
+    font-size: 9px;
+    text-transform: uppercase;
+}
