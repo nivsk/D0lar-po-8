@@ -1,0 +1,362 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../fonts/RedHatDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/RedHatDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-menu {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  padding-top: 20px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+ul a {
+  padding-left: 20px;
+  color: #000000;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+.overview {
+  list-style-type: disc;
+  color:#FB4C47
+}
+
+.contact {
+  margin-left: 15px;
+  border: #FF383D solid 2px;
+  border-radius: 46px;
+}
+
+.contact a {
+  color: #FF383D;
+  padding: 30px 20px;
+}
+
+.overview a {
+  color: #FB4C47;
+}
+
+.textimg-header {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-header {
+  width: 640px;
+}
+
+h3 {
+  color: #fa5652;
+  font-family: "Red Hat Display";
+  line-height: 30px;
+  font-size: 20px;
+}
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: #30612e;
+  font-family: "Red Hat Display";
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.text-header p {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 35px;
+  color: #4b4f51;
+  margin-bottom: 50px;
+}
+
+.text-header a {
+  padding: 20px 80px;
+  font-family: "Red Hat Display";
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #fa5652;
+  border-radius: 65px;
+}
+
+.textimg-about {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 650px;
+  margin-top: 30px;
+}
+
+.about-text a {
+  border-radius: 65px;
+  padding: 20px 60px;
+  background-color: #f8dfdf;
+  text-decoration: none;
+  font-family: "Red Hat Display";
+  line-height: 24px;
+  color: #fa5652;
+}
+
+.about-text p {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 45px;
+  color: #4b4f51;
+  margin-bottom: 50px;
+}
+
+.textimg-contagion {
+  display: flex;
+  justify-content: center;
+}
+
+.contagion-text {
+  width: 570px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.contagion-text p {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 45px;
+  color: #4b4f51;
+  margin-bottom: 50px;
+}
+
+.kartunku {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.kartunku h3 {
+  padding-top: 80px;
+  color: #156626;
+  font-family: "Roboto";
+  font-size: 28px;
+  line-height: 46px;
+}
+
+.kartunku p {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 45px;
+  color: #4b4f51;
+  margin-bottom: 50px;
+}
+
+.human-contacts {
+  padding-top: 50px ;
+  height: 500px;
+  text-align: center;
+  margin-left: 20px;
+  width: 400px;
+  box-shadow: 0px 5px 80px 0px #00000015;
+
+}
+
+.contained-objects {
+  padding-top: 50px ;
+  height: 500px;
+  text-align: center;
+  margin-left: 20px;
+  width: 400px;
+  box-shadow: 0px 5px 80px 0px #00000015;
+}
+
+.transmission {
+  padding-top: 50px ;
+  height: 500px;
+  text-align: center;
+  margin-left: 20px;
+  width: 400px;
+  box-shadow: 0px 35px 87px 0px #00000015;
+}
+
+.symptoms-text {
+  width: 800px;
+  margin-bottom: 80px;
+}
+
+#symptoms {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.symptoms-text p {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 35px;
+  color: #4b4f51;
+}
+
+#should-do p {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 35px;
+  color: #4b4f51;
+}
+
+.text-head {
+  margin-top: 100px;
+  width: 700px;
+  text-align: center;
+}
+
+.head-shoulddo {
+  display: flex;
+  justify-content: center;
+}
+
+.advice {
+  margin-top: 50px;
+}
+
+.advice-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-advice {
+  margin-top: 50px;
+  width: 640px;
+}
+
+.number {
+  padding: 15px 20px;
+  margin:0px 30px;
+  color: #FA5652;
+  background-color: #fadcf8b0;
+  border-radius:60px ;
+  height: 75px;
+  width: 75px;
+}
+
+.text-advice p {
+  padding-left: 140px;
+}
+
+#question {
+  margin-top: 150px;
+}
+
+.text-question {
+  display: flex;
+  justify-content: center;
+}
+
+.data-question {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.data-question input {
+  box-shadow: 0px 35px 87px 0px #00000036;
+  font-family: 'Roboto';
+  font-size: 22px;
+  border-radius: 57px;
+  padding: 40px 200px;
+  outline: none;
+  border: 0px solid;
+  background: #f3f3f3de;
+}
+
+.data-question a {
+  align-self: center;
+  background-color: #F44A45;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 20px 50px;
+  border-radius: 65px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#footer {
+  margin-top: 150px;
+}
+
+.footermain-menu ul {
+  margin-top: 20px;
+  display: flex;
+}
+
+.soc {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.soc a {
+  margin-left: 30px;
+}
+
+.footer-menu li {
+  list-style-type: none;
+  font-family:'Roboto' ;
+  font-size:23px ;
+  color: #00402E;
+  line-height: 28px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.coryghting {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 27px;
+  color:#415E56;
+}
